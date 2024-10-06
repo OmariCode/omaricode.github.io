@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Omari's Pet Palace</title> 
+
+<img src="header.png">
+<body>
+
+    <p> Pick Teddie's favorite food! </p>
+
+    <img src="dog food.jpg" alt="dog food" width="500" height="400">
