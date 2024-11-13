@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar container */
+.navbar {
+background-color: #DF5D2E;
+padding: 30px 60px;
+}
+
+/* Navbar list */
+.navbar ul {
+list-style-type: none;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+/* Navbar list items */
+.navbar li {
+margin: 0 20px;
+}
+
+/* Navbar links */
+.navbar a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+padding: 10px;
+transition: background-color 0.3s ease;
+}
+
+/* Navbar links hover effect */
+.navbar a:hover {
+background-color: #575757;
+border-radius: 5px;
+}
+
+
+
+
+
+/* Content Section Styling */
+.content {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 60px;
+}
+
+/* Image Styling */
+.image img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Text Module Styling */
+.text-module {
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-module h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-module p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1 {
+font-family: Arial, sans-serif;
+font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;}
+
+    body {
+font-family: Arial, sans-serif;
+}
+
+
+
