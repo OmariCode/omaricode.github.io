@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memories and Magents</title>
+    <link rel="stylesheet" href="random.css">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+<div class="gradient-navbar">
+ <h1>Memories and Magents</h1>
+  <div class="navlinks">
+            <a href="#">The Fridge</a>
+            <a href="magnet.html">The Magents</a>
+            <a href="random.html">Random Magent!</a>
+        </div>
+
+         </div>
+<body>
+ <script>
+        function goToRandomPage() {
+            // Define an array of URLs of HTML pages you want to redirect to
+            const pages = [
+                'mag1.html',
+                'mag2.html',
+                'mag3.html',
+                'mag4.html',
+                'mag5.html',
+                'mag6.html',
+            ];
+
+            // Pick a random index from the pages array
+            const randomIndex = Math.floor(Math.random() * pages.length);
+
+            // Redirect to the randomly selected page
+            window.location.href = pages[randomIndex];
+        }
+    </script>
+</head>
+<body>
+
+    <h1><center>Click the Button to Go to a Magnet<center></h1>
+    <center><button  onclick="goToRandomPage()">Magnets Await</button><center>
+
+
+
+
+ <style>
+        /* Apply the custom cursor to the entire page */
+        body {
+            cursor: url('cursor.png'), auto;
+        }
+
+
+        /* Additional styling */
+     
+        }
+
+        .custom-area {
+            padding: 20px;
+            border: 2px dashed #333;
+            display: inline-block;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        /* To change the cursor when hovering over a specific area */
+        .custom-cursor:hover {
+            cursor: url('https://example.com/hover-cursor.png'), auto;
+        }
+    </style>
+</head>
+<body>
+</body>
+</html>
