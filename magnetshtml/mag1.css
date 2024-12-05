@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Copperplate, sans-serif;
+}
+
+.gradient-navbar {
+    background: linear-gradient(to right, #4A494B 0%, #9C9999 14%, #827F7F 29%, #BEBEBE 42.86%, #939393 57.14%, #BABABA 71.43%, #E9E5E5 85.71%, #CCCCCA 100%);
+    padding: 30px;
+    padding: 50px;
+    gap:20px;
+    align-content: right;
+    margin-bottom: 20px;
+}
+.navlinks {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.navlinks a:hover {
+    color: white;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+
+/* Content Section Styling */
+.content {
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 60px;
+}
+
+/* Image Styling */
+.image img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Text Module Styling */
+.text-module {
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-module h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-module p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Background Image Container Styling */
+.background-image-container {
+    background-image: url('dna.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 600px;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center; /* Center vertically */
+    color: white; /* Text color for the headline */
+    text-align: center;  
+    position: relative; /* Position for potential overlay */
+    border-radius: 20px;
+    margin-bottom: 60px;
+}

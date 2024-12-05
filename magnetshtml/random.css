@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Copperplate, sans-serif;
+}
+
+.gradient-navbar {
+    background: linear-gradient(to bottom, grey, white);
+    padding: 50px;
+    gap:20px;
+    align-content: right;
+    margin-bottom: 20px;
+}
+.navlinks {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    font-size: 25px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.navlinks a:hover {
+    color: white;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 4s ease-in-out infinite alternate;
+}
+
+ }
+
+        /* Button styling */
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #007BFF; /* Blue background */
+            color: white; /* White text */
+            border: none; /* Remove border */
+            border-radius: 20px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s ease, transform 0.2s ease;

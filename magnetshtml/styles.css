@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: Copperplate, sans-serif;
+            font-size: 26px; /* Larger font size for h1 */
+            color: #FFFFFF; 
+            position: center
+    
+}
+
+ }
+
+        /* Additional styling for h1 */
+        h1 {
+            font-family: Copperplate, sans-serif;
+            font-size: 36px; /* Larger font size for h1 */
+            color: #FFFFFF; /* Blue color */
+        }
