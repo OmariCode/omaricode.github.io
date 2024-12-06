@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moving Gradient Navbar</title>
+    <link rel="stylesheet" href="final.css">
+    <style>
+        /* Reset the page margin */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 15px 0;
+            background: linear-gradient(45deg, #ff007f, #ff7f00, #00d4ff, #00ff77); /* Initial gradient colors */
+            background-size: 300% 300%; /* Set the size of the gradient */
+            animation: gradientMove 5s ease infinite; /* Animate the gradient */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Links within the navigation bar */
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 15px;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 1px;
+            transition: transform 0.3s ease;
+        }
+
+        /* Hover effect for links */
+        nav a:hover {
+            transform: scale(1.1);
+        }
+
+        /* Animation to move the gradient */
+        @keyframes gradientMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+    </style>
+</head>
+    <!-- Navigation bar -->
+    <nav>
+        <a href="#"> Interaction Design I Fall 2024</a></nav>
+
+<style>
+        /* Set the background color of the entire webpage to light blue */
+        body {
+            background-color: #add8e6; /* Light blue color */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+            font-family: Arial, sans-serif; /* Set the default font */
+        }
+
+        /* Additional styling for content */
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 50px;
+        }
+
+        p {
+            text-align: center;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+       <div class="imagerow">
+   <a href="https://omaricode.github.io/lindas/"> <center> <img src="lindaslogo.png"  class="imagescale" ></center></a>
+   <a href="https://omaricode.github.io/omaris-pet-palace/"><center> <img src="petlogo.png" class="imagescale"></center></a>
+    <a href="https://omaricode.github.io/magnetshtml/"><center><img src="fridgelogo.png" class="imagescale"></center></a>
+</body>
+</div>
+
+</html>
